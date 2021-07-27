@@ -42,19 +42,19 @@ class GoodsList {
         totalPrice.innerText = `Итого  ${sum} рублей`;
     }
 
-    // render() {
-    //     let listHtml = '';
-    //     this.goods.forEach(good => {
-    //         const goodItem = new GoodsItem(good.title, good.price);
-    //         listHtml += goodItem.render();
-    //     });
-    //     document.querySelector('.goods-list').innerHTML = listHtml;
-    // }
+    render() {
+        let listHtml = '';
+        this.goods.forEach(good => {
+            const goodItem = new GoodsItem(good.title, good.price);
+            listHtml += goodItem.render();
+        });
+        document.querySelector('.goods-list').innerHTML = listHtml;
+    }
 }
 
 const list = new GoodsList();
 list.fetchGoods();
-// list.render();
+list.render();
 list.totalGoodsList();
 
 class Cart {
