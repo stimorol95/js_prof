@@ -1,0 +1,26 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Big Floppa",
+    "price": 15000,
+    "img": "./img/big-floppa.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Big Cat",
+    "price": 6500,
+    "img": "./img/big-cat.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Small Cat",
+    "price": 3250,
+    "img": "./img/small-cat.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Tiger",
+    "price": 50000,
+    "img": "./img/tiger.jpg"
+  }
+]
